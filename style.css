@@ -15,6 +15,7 @@ body{
 }
 
 #page{
+    box-sizing: border-box;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
@@ -25,7 +26,6 @@ body{
 
 img {
     border-radius: 16px;
-    box-sizing: border-box;
 }
 
 main {
@@ -45,7 +45,6 @@ section + section {
 h1{
     line-height: 140%;
     font-size: 40px;
-    margin-bottom: 4px;
 }
 
 h2{
@@ -59,5 +58,15 @@ h1,h2{
 }
 
 ul{
-    padding: 24px;
+    padding-left: 24px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img{
+    vertical-align: middle;
 }
